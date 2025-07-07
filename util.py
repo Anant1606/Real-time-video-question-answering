@@ -810,3 +810,4 @@ if __name__ == "__main__":
     res = create_summary_of_video(openai_api_key=os.getenv("OPENAI_API_KEY"), temperature=0.0, image_dir="/root/nas_Ego4D/egoschema/images", vid="55c9c777-a4a9-48df-b0e3-7ebf55788373", sampling_interval_sec=3, segment_frames_num=90)
     print ("*******")
     print(json.dumps(res, indent=2, ensure_ascii=False))
+#trhrtfhrf
