@@ -46,7 +46,7 @@ COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 RUN python -m spacy download en_core_web_sm
 WORKDIR /root
-
+#
 # Set up the Bash shell environment
 RUN echo "export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '" >> /root/.bashrc
 
